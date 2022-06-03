@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/daanishgoyal/Desktop/mydosp/project2.fsproj": {}
+  },
+  "projects": {
+    "/Users/daanishgoyal/Desktop/mydosp/project2.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/daanishgoyal/Desktop/mydosp/project2.fsproj",
+        "projectName": "project2",
+        "projectPath": "/Users/daanishgoyal/Desktop/mydosp/project2.fsproj",
+        "packagesPath": "/Users/daanishgoyal/.nuget/packages/",
+        "outputPath": "/Users/daanishgoyal/Desktop/mydosp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/daanishgoyal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
